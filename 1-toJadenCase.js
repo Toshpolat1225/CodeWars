@@ -9,3 +9,9 @@ String.prototype.toJadenCase = function () {
   // slice(a,b) massiv elementlarni ajratib beradi ikta qiymat qabul qildi (Birinchi qiymati kiradigan qavs, ikkinchisi kirmaydigan qavs hisovlandi)
   // toUpperCase() matn bosh harflarga almashtiriladi
   // join() massivni string shakl olib keladi
+
+  String.prototype.toJadenCase2 = function() {
+    return this.split(' ').map(item => item[0].toUpperCase() + item.slice(1)).join(' ')
+  };
+
+  // ikkinchi yo'li
