@@ -8,3 +8,6 @@ var number = function(busStops){
     }
     return ummumiy
   }
+
+  //boshqa yo'li
+  const number2 = busStops => busStops.reduce((num, [on, off]) => num + on - off, 0);
