@@ -8,3 +8,7 @@ function makeNegative(num) {
 }
 // if, else opertorlarni ternada usuli Shart ? to'gri bolsa ishlaydi : Nogri bolsa ishlayd
 // return qaytaradi
+
+makeNegative2 = n => -Math.abs(n)
+
+//boshqa yo'li
