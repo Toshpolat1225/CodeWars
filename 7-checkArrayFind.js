@@ -9,3 +9,7 @@ function check(a, x) {
   // ichidagi funksiya elementni taqqoslaydi agar tengbolsa chiqardi bolmasa undifand
   // undifand false chiqaradi son esa true
 // faqat bizda bitta muoma bor massivda ham x da ham 0 bolsa uni ham true olish kerak
+
+const check2 = (a,x) => a.includes(x);
+
+//boshqa yo'li
