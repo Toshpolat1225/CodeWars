@@ -14,3 +14,6 @@ function validatePIN (pin) {
   }
   return true;
 }
+
+// boshqa yo'li
+const validatePIN2 = pin => /^(\d{4}$|\d{6}$)/.test(pin);
