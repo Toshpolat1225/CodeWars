@@ -15,3 +15,8 @@ const binaryArrayToNumber = arr => {
 // satrni son qiladi va birinchi butun sonni qaytaradi
 // Qaysi sanoq ekanligigi yozilmasa avtomatik 10 oladi
 // join() massivni string shakl olib keladi
+
+
+const binaryArrayToNumber2 = arr => parseInt(arr.join(''), 2);
+
+// boshqa yo'li'
