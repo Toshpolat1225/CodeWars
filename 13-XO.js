@@ -13,3 +13,5 @@ function XO(str) {
     }
     return countX === countO;
 }
+// boshqa yo'li
+const XO = str =>  str.toLowerCase().split('x').length === str.toLowerCase().split('o').length;
