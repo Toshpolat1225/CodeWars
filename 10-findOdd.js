@@ -18,3 +18,5 @@ function findOdd(A) {
       }
     }
 }
+//boshqa yo'li
+const findOdd2 = (x) => x.reduce((a, b) => a ^ b);
