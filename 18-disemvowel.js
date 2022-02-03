@@ -6,3 +6,7 @@ function disemvowel(str) {
   }
 
 // charAt() funksiya stringni nechi elementida son bolsa shu stringni qaytaradi
+
+const disemvowel2 = str => str.replace(/[aeiou]/gi,'');
+
+// boshqa yo'li'
