@@ -9,3 +9,6 @@
 
 const oddOrEven =array => array.reduce( function (sum, item) { return sum + item }, 0) % 2 == 0 ? 'even': 'odd';
 
+const oddOrEven2 = a => a.reduce((a, b) => a + b, 0) % 2 === 0 ? 'even' : 'odd';
+
+// boshqa yo'li
