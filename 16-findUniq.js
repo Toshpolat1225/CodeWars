@@ -12,3 +12,9 @@ function findUniq(arr) {
             return arr[i];}
         }
   }
+
+  const findUniq2 = arr=> +arr.filter(e=>arr.indexOf(e)==arr.lastIndexOf(e))
+
+  const findUniq3 = (a) => a.sort()[0] === a.sort()[1] ? a.sort()[a.length - 1] : a.sort()[0];
+
+  // boshqa yo'li
