@@ -30,3 +30,7 @@ function getSum(a, b) {
         }
     }
 }
+
+const GetSum2 = (a, b) => (a + b) * (Math.abs(a - b) + 1) / 2;
+
+// boshqa yo'li
