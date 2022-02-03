@@ -13,3 +13,8 @@ function countSheeps(arrayOfSheep) {
     })
     return counter
 }
+
+
+let countSheeps2 = x => x.filter( s => s ).length;
+
+//boshqa yo'li
