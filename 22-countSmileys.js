@@ -15,4 +15,9 @@ function countSmileys(arr) {
       }
       }
     return count;
-    }
+}
+
+
+const countSmileys = ss => ss.reduce((a, s) => a + /^[:;][-~]?[D)]$/.test(s), 0);
+
+// boshqa yo'li
