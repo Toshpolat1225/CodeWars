@@ -18,3 +18,10 @@ function pigIt(str){
     newStr += array[i] 
     } return newStr
   }
+
+
+  // boshqa yo'li'
+  function pigIt(str) {
+    return str.replace(/(\w)(\w*)(\s|$)/g, '$2$1ay$3');
+  }
+  
