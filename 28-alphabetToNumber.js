@@ -12,3 +12,5 @@ function alphabetPosition(text) {
   }
 
 //   charCodeAt() Alifoboni raqamga aylantiradi Alifbo boyicha faqat 64 qoshadi yani A 65 B 66
+
+let alphabetPosition = (text) => text.toUpperCase().replace(/[^A-Z]/g, '').split('').map(ch => ch.charCodeAt(0) - 64).join(' ');
