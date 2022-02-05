@@ -7,3 +7,6 @@ function repeatStr (n, s) {
     }
     return soz;
   }
+
+  // boshqa yo'li'
+  repeatStr = (n, s) => s.repeat(n)
